@@ -1,9 +1,14 @@
-gender = ["Male", "Male", "Male", "Male", "Male", "Female", "Female", "Other"]
-characters = ["Hanzo", "Orisa", "Roadhog", "Lucio", "Sombra", "Soldier", "Symmetra", "Reinhardt", "McCree", "Brigitte",
-              "D.Va", "Tracer", "Mercy", "Doomfist", "Genji", "Zarya", "Widowmaker", "Junkrat", "Orisa", "Reaper",
-              "Pharah", "Winston", "Moira"]
+gender = ["Male", "Male", "Male", "Male", "Male","Male","Male", "Female", "Female", "Other"]
+
+# characters
+DAMAGE = ["Hanzo","Sombra", "Soldier", "Symmetra","McCree","Tracer","Doomfist", "Genji","Widowmaker", "Junkrat","Reaper","Pharah", "Ashe", "Bastion", "Echo", "Mei", "Torbjorn"]
+TANK = ["Orisa", "Roadhog","Reinhardt","D.Va","Zarya","Winston", "Sigma", "Wrecking"]
+HEALER = ["Lucio","Brigitte","Mercy","Moira", "Ana", "Baptiste","Zenyatta"]
+
+characters = DAMAGE + TANK + HEALER
+
 c_type = ["Healer", "Tank", "Damage"]
-modes = ["quick", "ctf", "ranked", "3vs3", "solo", "mayhem"]
+modes = ["Quick", "CTF", "Ranked", "3VS3", "Solo", "Mayhem"]
 language_names = [
         "Afrikaans",
         "Arabic",
